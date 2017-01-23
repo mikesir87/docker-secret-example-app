@@ -1,0 +1,25 @@
+{
+  "name": "docker-secret-example-app",
+  "version": "1.0.0",
+  "description": "Example application that shows how to work with secrets in Docker services",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikesir87/docker-secret-example-app.git"
+  },
+  "author": "Michael Irwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikesir87/docker-secret-example-app/issues"
+  },
+  "homepage": "https://github.com/mikesir87/docker-secret-example-app#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
